@@ -1,17 +1,17 @@
-domain: example.com
-url: https://example.com
-baseurl: "/wind"
+domain: gabrielcano.com.br
+url: https://gabrielcano.com.br
 
-title: Wind
-email: wind@example.com
-author: Wind Sample
+title: Gabriel Cano
+email: gabriel@gabrielcano.com.br
+author: Gabriel Cano
 
-lang: en
+lang: pt-br
 
 plugins:
   - jekyll-seo-tag
 
-color: "#13ccf9"
+color: "#593b81"
+secondary-color: "#00ff00"
 # disqus:
 #   shortname: example-com
 #
@@ -19,3 +19,6 @@ rrss:
   email: "example@example.cl"
   telegram: "https://t.me/"
   discord: "https://discord.com/"
+
+post:
+  signature: Obrigado, Brasil. Bebam água, Bjos. ❤️
