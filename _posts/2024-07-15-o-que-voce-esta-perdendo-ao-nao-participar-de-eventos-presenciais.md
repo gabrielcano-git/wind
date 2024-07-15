@@ -14,7 +14,7 @@ Você já participou de eventos presenciais? Eles são extremamente importantes 
 Tenho pelo menos três eventos presenciais que mudaram minha vida.
 
 ### InterCon WP - 2014
-Esse foi meu primeiro evento de tecnologia. Antes disso, eu achava que era o segundo melhor programador do Brasil, pois o primeiro era Richard, que me ensinou a programar. Ficar muito tempo em uma bolha impede a evolução, e participar desse evento me fez perceber o quanto eu ainda tinha a aprender. Isso me motivou a estudar mais, evoluir e continuar aprendendo.
+Esse foi meu primeiro evento de tecnologia. Antes disso, eu achava que era o segundo melhor programador do Brasil, pois o primeiro era [Richard](https://www.linkedin.com/in/richard-itokazo-07088919/){:target="_blank"}(quem me ensinou a programar), que me ensinou a programar. Ficar muito tempo em uma bolha impede a evolução, e participar desse evento me fez perceber o quanto eu ainda tinha a aprender. Isso me motivou a estudar mais, evoluir e continuar aprendendo.
 
 ### Wordcamp SP - 2019
 Depois disso, participei de vários WordCamps, onde aprendi bastante e evoluí muito. Na edição de 2019, junto com um meetup posterior a ele, tive a segunda grande virada da minha vida. Lá fiquei sabendo que a Studio Visual estava contratando, enviei meu currículo e, três meses depois, estava empregado e trabalho lá até hoje.
