@@ -9,6 +9,7 @@ tags:
   - MarketingDigital
   - goQRme
 status: publish
+date: 2019-12-30
 ---
 # API de QR Code
 

@@ -9,6 +9,7 @@ tags:
   - AgênciasDePublicidade
   - DesenvolvedoresCriativos
 status: publish
+date: 2019-01-05
 ---
 # Programador é publicitário? Qual o seu valor na agência?
 

@@ -5,6 +5,7 @@ image: /assets/images/posts/2023-08-29-porque-mudei-para-o-windows-11/thumbnail.
 tags:
   - tag
 status: publish
+date: 2023-08-29
 ---
 # Porque mudei para o Windows 11
 

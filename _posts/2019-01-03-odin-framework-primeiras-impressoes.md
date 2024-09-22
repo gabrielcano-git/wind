@@ -9,6 +9,7 @@ tags:
   - Frameworks
   - DesenvolvimentoWeb
 status: publish
+date: 2019-01-03
 ---
 # Odin Framework – Primeiras impressões
 

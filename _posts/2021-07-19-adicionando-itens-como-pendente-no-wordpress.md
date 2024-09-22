@@ -5,6 +5,7 @@ image: /assets/images/example4.jpg
 tags:
   - tag
 status: publish
+date: 2021-07-19
 ---
 # Adicionando itens como “Pendente” no WordPress
 

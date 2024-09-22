@@ -5,6 +5,7 @@ image: /assets/images/example4.jpg
 tags:
   - tag
 status: publish
+date: 2023-09-19
 ---
 # Criando um usuário FTP no Wordops
 

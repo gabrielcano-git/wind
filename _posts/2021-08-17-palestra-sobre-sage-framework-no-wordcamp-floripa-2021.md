@@ -5,6 +5,7 @@ image: /assets/images/example4.jpg
 tags:
   - tag
 status: publish
+date: 2021-08-17
 ---
 # Palestra sobre Sage FrameWork no Wordcamp Floripa 2021
 

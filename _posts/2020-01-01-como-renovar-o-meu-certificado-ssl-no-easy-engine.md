@@ -5,6 +5,7 @@ image: /assets/images/example4.jpg
 tags:
   - tag
 status: publish
+date: 2020-01-01
 ---
 # Como renovar o meu Certificado SSL no Easy Engine
 

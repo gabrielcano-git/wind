@@ -5,6 +5,7 @@ image: /assets/images/posts/2024-07-15-o-que-voce-esta-perdendo-ao-nao-participa
 tags:
   - tag
 status: draft
+date: 2024-07-15
 ---
 # O Que Você Está Perdendo ao Não Participar de Eventos Presenciais
 

@@ -5,6 +5,7 @@ image: /assets/images/example4.jpg
 tags:
   - tag
 status: publish
+date: 2022-01-03
 ---
 # Mudei para o VS Code e olha só no que deu!
 

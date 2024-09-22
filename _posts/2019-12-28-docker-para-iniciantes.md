@@ -9,6 +9,7 @@ tags:
   - WordPress
   - TutorialDocker
 status: publish
+date: 2019-12-28
 ---
 # Docker para iniciantes
 

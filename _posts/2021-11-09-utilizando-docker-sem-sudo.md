@@ -5,6 +5,7 @@ image: /assets/images/example4.jpg
 tags:
   - tag
 status: publish
+date: 2021-11-09
 ---
 # Utilizando Docker sem Sudo
 
