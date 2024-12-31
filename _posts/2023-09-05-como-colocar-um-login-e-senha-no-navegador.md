@@ -7,8 +7,6 @@ tags:
 status: publish
 date: 2023-09-05
 ---
-# Como colocar um login e senha no Navegador
-
 Em determinados projetos, é crucial implementar um sistema de Login e Senha diretamente no navegador para restringir o acesso ao seu site.
 
 Isso é comum (ou pelo menos deveria ser!) em sites que estão em fase de homologação.
@@ -31,7 +29,7 @@ A partir daqui, temos dois caminhos a seguir, dependendo do servidor: Apache ou 
 
 No seu arquivo .htaccess principal, localizado na raiz do site, adicione as seguintes linhas de código:
 
-```
+```text
 #Protect Directory
 AuthName "Dialog prompt"
 AuthType Basic
@@ -43,7 +41,7 @@ Require valid-user
 
 Dentro do bloco  `location`  principal, adicione:
 
-```
+```text
 auth_basic           "Administrator’s Area";
 auth_basic_user_file /var/www/htdocs/.htpasswd;
 ```
