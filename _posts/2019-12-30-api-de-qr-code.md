@@ -11,8 +11,6 @@ tags:
 status: publish
 date: 2019-12-30
 ---
-# API de QR Code
-
 Existe um jeito simples e fácil de usar uma API de QR code para seus projetos.
 
 Em uma trudução livre do próprio site:
