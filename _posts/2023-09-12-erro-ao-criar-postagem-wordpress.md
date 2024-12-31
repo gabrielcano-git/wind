@@ -7,11 +7,9 @@ tags:
 status: publish
 date: 2023-09-12
 ---
-# Erro ao criar postagem WordPress
-
 Sabe quando você está tentando fazer algo que parece fácil, mas aí…
 
-![](https://gabrielcano.com.br/wp-content/uploads/2023/09/image-1.png)
+![Erro ao criar postagem no WordPress](https://gabrielcano.com.br/wp-content/uploads/2023/09/image-1.png)
 
 Bom, foi mais ou menos o que aconteceu quando decidi migrar um site outro dia.
 
@@ -25,7 +23,7 @@ Dando uma boa pesquisada, achei um  [link do Stack Overflow em Português](https
 
 Então, executando os códigos abaixo diretamente no banco de dados, consegui resolver o bug:
 
-```
+```sql
 -- Deleta entradas com ID 0
 DELETE FROM wp_termmeta WHERE meta_id=0; 
 DELETE FROM wp_terms WHERE term_id=0; 
