@@ -7,8 +7,6 @@ tags:
 status: publish
 date: 2021-08-17
 ---
-# Palestra sobre Sage FrameWork no Wordcamp Floripa 2021
-
 Fala Pessoal! Tudo certo?
 
 Semana passa eu dei uma palestra sobre o  [Sage Framework](https://roots.io/sage/)  no  [Wordcamp Floripa 2021](https://floripa.wordcamp.org/2021/).
