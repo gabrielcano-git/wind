@@ -7,8 +7,6 @@ tags:
 status: publish
 date: 2022-01-03
 ---
-# Mudei para o VS Code e olha só no que deu!
-
 Utilizei o Sublime Text durante muito tempo, porém o  [VS Code](https://code.visualstudio.com/)  veio ganhando o coração dos desenvolvedores e eu fui mais um deles.
 
 O que mais me atraiu no VS Code é que ele é extremamente configurável, dando opção de deixar ele do seu jeitinho com extensões, snippets e muito mais.
@@ -17,7 +15,7 @@ Além disso ele tem uma  [versão totalmente online](https://vscode.dev/)  onde 
 
 Para finalizar esse rápido artigo, abaixo seguem minhas extensões do VS Code:
 
-```
+```bash
 code --install-extension anthonydiametrix.ACF-Snippet
 code --install-extension atlassian.atlascode
 code --install-extension avocode.avocode
