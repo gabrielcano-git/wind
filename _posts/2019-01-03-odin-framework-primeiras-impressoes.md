@@ -11,8 +11,6 @@ tags:
 status: publish
 date: 2019-01-03
 ---
-# Odin Framework – Primeiras impressões
-
 Fala Galera Beleza?
 
 Bom, sou desenvolvedor PHP e adoro utilizar o WordPress para criar minhas aplicações.
@@ -29,7 +27,7 @@ Bom, essa foi apenas uma visão rápida e geral o framework. Irei criar outro po
 
 ### Sobre o Odin Framework
 
--   Site: [http://wpod.in/](http://wpod.in/)
--   Demo: [http://demo.wpod.in/](http://demo.wpod.in/)
--   Projeto no Github: [https://github.com/wpbrasil/odin](https://github.com/wpbrasil/odin)
--   Wiki: [https://github.com/wpbrasil/odin/wiki](https://github.com/wpbrasil/odin/wiki) (Foi aqui onde aprendi tudo sobre o Odin está bem documentado!)
+- Site: [http://wpod.in/](http://wpod.in/)
+- Demo: [http://demo.wpod.in/](http://demo.wpod.in/)
+- Projeto no Github: [https://github.com/wpbrasil/odin](https://github.com/wpbrasil/odin)
+- Wiki: [https://github.com/wpbrasil/odin/wiki](https://github.com/wpbrasil/odin/wiki) (Foi aqui onde aprendi tudo sobre o Odin está bem documentado!)
