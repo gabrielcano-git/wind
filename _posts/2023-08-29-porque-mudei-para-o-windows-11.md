@@ -7,8 +7,6 @@ tags:
 status: publish
 date: 2023-08-29
 ---
-# Porque mudei para o Windows 11
-
 Meu principal objetivo ao mudar para o Windows foi poder ajudar os usuários desse sistema. Como já estava há quase 10 anos sem contato com ele, não tinha mais noção de como era o ecosistema da Microsoft.
 
 Além disso, havia algumas coisas que eu imaginava que o Windows poderia me ajudar, e sim, ele ajudou!
@@ -53,11 +51,11 @@ De certa forma, a Time Machine do Mac também é eficiente para garantir que voc
 
 Recentemente fiz algumas configurações que melhoraram um pouco a experiência. No entanto, se você baixa um repositório no Windows e precisa usá-lo no WSL (ou vice-versa), terá bastante trabalho. Um trabalho que, usando apenas o Linux, você não enfrentaria de forma alguma.
 
-### A poorra do arquivo Zone.Identifier;
+### A poorra do arquivo Zone.Identifier
 
 Se você usa git no Windows e transfere arquivos do Windows para o WSL, provavelmente já se deparou com o famoso Zone.Identifier. Esse arquivo é como uma praga de jardim: está sempre lá, e você precisa estar constantemente removendo (deletando) ele. Infelizmente, nenhuma solução parece ser realmente eficaz para evitar que essa praga retorne!
 
-### Tem alguns bugs/glitchs bizarros;
+### Tem alguns bugs/glitchs bizarros
 
 É o padrão Windows de sempre. Uma tela azul aqui, um bug estranho que exige reinicialização do computador acolá. Fone que não funciona, bluetooth que não conecta, entre outros problemas. São várias pequenas questões nas quais o Windows promete ser 100% eficiente e que sempre foram pontos de crítica no Linux. Hoje, tenho plena convicção de que meu fone funcionará melhor e mais rapidamente se eu estiver trabalhando em uma distro Linux.
 
