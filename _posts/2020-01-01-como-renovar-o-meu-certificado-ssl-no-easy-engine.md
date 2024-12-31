@@ -7,17 +7,15 @@ tags:
 status: publish
 date: 2020-01-01
 ---
-# Como renovar o meu Certificado SSL no Easy Engine
-
 [Escrevi um artigo sobre o poder do Easy Engine](https://gabrielcano.com.br/o-poder-do-easy-engine/)  e precisei renovar o certificado SSL, porém tive grandes dificuldades no processo.
 
 Lá na documentação do  [Easy Engine](https://easyengine.io/), parece tudo ser uma maravilha. Vejam:
 
-**Desabilitando o SSL**
+## Desabilitando o SSL
 
 ee site update example.com --letsencrypt=off
 
-**Atualizando o SSL**
+## Atualizando o SSL
 
 ee site update example.com --letsencrypt=renew
 
