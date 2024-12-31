@@ -11,8 +11,6 @@ tags:
 status: publish
 date: 2019-02-17
 ---
-# O poder do Easy Engine
-
 Olá pessoas!
 
 Esse é um post para falar sobre minha experiência recente configurando um servidor do zero com Easy Engine e colocando 5 aplicações web online com apenas 5 dólares. Eu nunca tive vontade de mexer com essa parte de servidor e tals.
@@ -43,7 +41,9 @@ Me esforçando bastante, batendo cabeça, etc.
 
 Basicamente depois de testes, configurações, etc. Você vai conseguir acessar sua hospedagem através do SSH dessa forma:
 
+```bash
 ssh root@SEUIP
+```
 
 Vai pedir sua senha que você recebeu por e-mail lá da Digital Ocean. Coloca essa senha, redefine por uma que seja segura, porém fácil de digitar, porque você vai ficar acessando e digitando ela bastante.
 
@@ -55,8 +55,10 @@ Para instalar o Easy Engine no servidor é fácil e simples.
 
 Execute esses comandos:
 
+```bash
 # Install EasyEngine on Linux
 wget -qO ee rt.cx/ee4 && sudo bash ee
+```
 
 Pronto! É só esperar alguns minutos e ele já irá estar instalado e funcionando. Ai que vem todos os perrengues.
 
@@ -68,20 +70,22 @@ Para criar um site é simples até. Você consegue se guiar bem seguindo essa li
 
 No meu caso eu sai criando sites WordPress a dar com pau. Então os comandos eram até que bem básicos:
 
+```bash
 ee site create seusite.com.br --wp --locale=pt_BR --le
+```
 
 > **ee**  = É o comando que chama o EasyEngine. Através desse prefixo você irá conseguir executar o conjunto de funções que ele te fornece.
-
+>
 > **site**  = Sub-comando que te disponibiliza uma gama de outros comando para fazer configurações e alterações nos sites
-
+>
 > **create**  = Comando que diz que você irá criar um site. Na lista de comando que passei lá em cima, tem delete, update, enable, disable, entre outros comandos que serão base para você fazer suas alterações.
-
+>
 > **seusite.com.br**  = Aqui é o domínio que você vai definir que esse site funcione.
-
+>
 > **–wp**  = Esse pequeno parâmetro é o que define que será uma “hospedagem wordpress”. Ele é uma abreviação de  _–type=wp_  e você pode usar –type=html e outros formatos que estão na listinha de comandos.
-
+>
 > **–locale**  = Esse comando fez com que eu deletasse e recriasse os sites várias vezes, pois o site ficava sempre em inglês e eu precisava do painel em português. Acho de extrema importância a definição do idioma para que você tenha mais facilidade nos acessos e para facilitar também para seus clientes.  **pt_BR**  é a configuração do nosso idioma.
-
+>
 > **–le**  = Ativa o Lets Encrypt SSL na sua hospedagem. Na parte do Lets Encrypt vou explicar melhor, mas adianto. Esse comando pode não funcionar logo de cara.
 
 Feito isso, você provavelmente já terá seu site criado e se o DNS A estiver apontando para o IP da sua nuvem. basta acessar o site e já vera uma instalação do WordPress limpa para você acessar e começar a se divertir.
@@ -106,38 +110,50 @@ Bom para que não sabe, o arquivo wp-config.php não precisa estar na mesma past
 
 Então dentro do servidor, já com o site criado, o que eu fiz foi o seguinte:
 
+```bash
 ee site info seusite.com.br
+```
 
 Você receberá uma tabelinha com as informações do site. Uma delas é o caminho físico de onde a aplicação está que fica em “Site Root”.
 
 Pegue esse caminho e vá até ele. Exemplo:
 
+```bash
 cd /opt/easyengine/sites/seusite.com.br/**app**
+```
 
 Lá você vai ter 2 arquivos e 1 diretório:
 
--   dead.letter
--   wp-config.php
--   **htdocs**
+- dead.letter
+- wp-config.php
+- **htdocs**
 
-htdocs é a pasta onde ficam os arquivos do site. Você vai baixar seu projeto do site no git
+`htdocs` é a pasta onde ficam os arquivos do site. Você vai baixar seu projeto do site no git
 
+```bash
 git clone <seudiretorioremoto>
+```
 
 Se você tiver um acesso remoto fechado, vai precisar configurar uma chave SSH no servidor. O que foi o meu caso e que penei bastante para isso. Mas seria outro artigo, mais focado em GIT.
 
 Bom, com tudo isso feito, ai vai minha “dica”:
 
+```bash
 rm -r htdocs
+```
 
 Sim, deleta tudo sem dó, vamos pegar nosso projeto do GIT
 
+```bash
 mv seudiretorioremoto htdocs
+```
 
 A gente muda o nome da pasta onde estão as coisas do git para htdocs e como essa já era a pasta de configuração do EasyEngine vai funcionar tudo normal e caso você atualize localmente seu projeto no GIT. Quando estiver tudo online é só usar os comandos abaixo para manter tudo sincronizado:
 
+```bash
 cd htdocs
 git pull
+```
 
 Com essas configurações, consegui algo bem legal de trabalhar. Tudo sincronizado, sem precisar de FTP (Ou não, já vão saber kkkkk) e com mais profissionalismo do que eu já tinha trabalhado nos meus últimos quase 11 anos de carreira.
 
@@ -145,7 +161,9 @@ Com essas configurações, consegui algo bem legal de trabalhar. Tudo sincroniza
 
 Para efetuar as configurações de SSL no Easy Engine você precisa primeiro configurar um e-mail padrão para o Lets Encrypt. O comando é:
 
+```bash
 ee config set le-mail seu@email.com.br
+```
 
 Lembrando que o o site já deve estar apontando para o servidor para que funcione certinho.
 
@@ -153,13 +171,17 @@ No meu caso toda vez que eu tentava criar um novo site já com SSL não funciona
 
 Se estiver tudo certo, de cara o comando abaixo vai resolver sua vida na hora de criar um novo site:
 
+```bash
 ee site create seusite.com.br --wp --locale=pt_BR --le
+```
 
 Caso contrário, crie o site sem SSL e use o update para adicionar o Let Encrypt:
 
+```bash
 ee site update seusite.com.br --le
+```
 
-## WP CLI boladão!
+## WP CLI boladão
 
 Bom, além de tudo que já é e foi lindo e maravilhoso até agora, o Easy Engine já vem com o WP-CLI instalado.
 
@@ -169,15 +191,21 @@ Para isso, antes de começar a usá-lo é bom acertar as permissões da pasta.
 
 Acesse o diretório do seu projeto ( Pode usar o site info para lembrar o caminho ) e depois redefinir as permissões:
 
+```bash
 cd /opt/easyengine/sites/seusite.com.br/app/htdocs
+```
 
+```bash
 chown www-data:www-data -R * # Let Apache be owner
 find . -type d -exec chmod 755 {} \; # Change directory permissions rwxr-xr-x
 find . -type f -exec chmod 644 {} \; # Change file permissions rw-r--r--
+```
 
 Bom, depois disso é só pinga farra e foguete, com tanto que saiba os comando do  [WP-CLI](https://developer.wordpress.org/cli/commands/). Para acessar o Shell da sua aplicação WordPress você digitará:
 
+```bash
 ee shell seusite.com.br
+```
 
 ## Ferramentas auxiliares
 
@@ -185,22 +213,26 @@ Pelo menos até o presente momento eu não consegui me desvincular de algumas co
 
 Para acessá-las, basta utilizar o comando abaixo:
 
+```bash
 ee admin-tools enable seudominio.com.br
+```
 
 Assim já vai liberar as ferramentas abaixo para você:
 
--   nginx_status
--   opcache-gui.php
--   phpinfo.php
--   ping
--   pma
--   status
+- nginx_status
+- opcache-gui.php
+- phpinfo.php
+- ping
+- pma
+- status
 
 Para você acessar as ferramentas antes, deverá executar esse comando:
 
+```bash
 ee auth list global
+```
 
-Assim você receberá um login e senha. Após pegar essas dados, vá para www.seusite.com.br/ee-admin/.
+Assim você receberá um login e senha. Após pegar essas dados, vá para `www.seusite.com.br/ee-admin/`.
 
 ## Melhore sua stack
 
