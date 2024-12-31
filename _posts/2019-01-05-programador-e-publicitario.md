@@ -11,18 +11,16 @@ tags:
 status: publish
 date: 2019-01-05
 ---
-# Programador é publicitário? Qual o seu valor na agência?
-
 Um dia eu estava na escola técnica e conversado com um “calouro”, que era mais velho que eu e tivemos o seguinte diálogo, sobre eu ser “programador”:
 
 > Ele: Você trabalha em agência?
-> 
+>
 > Eu: Sim!
-> 
+>
 > Ele: Você faz o que?
-> 
+>
 > Eu: Eu programo!
-> 
+>
 > Ele: Ah! Então você é programador, não publicitário!
 
 Desde então fiquei sempre com esse questionamento em minha cabeça. Se eu trabalho em uma agência de publicidade, eu sou publicitário?
@@ -35,11 +33,8 @@ Acredito que quando você passa a trabalhar no mercado de publicidade, você é 
 
 Quando converso com pessoas que trabalham no mercado, a visão que eles tem do programador é algo estereotipado mais ou menos igual a essa imagem:
 
-<figure class="text-center text-sm">
-  <img alt="Imagem ilustrativa de esteriópito de programar" src="/assets/images/posts/2019-01-05-programador-e-publicitario/esteriotipo-de-programador.webp" />
-
-  <figcaption>Imagem gerada por inteligência artificial</figcaption>
-</figure>
+![Imagem ilustrativa de esteriópito de programar](/assets/images/posts/2019-01-05-programador-e-publicitario/esteriotipo-de-programador.webp)
+*Imagem gerada por inteligência artificial*
 
 ### **Devemos parar de nos enxergar como neandertals e acabar com esteriótipos!**
 
