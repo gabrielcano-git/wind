@@ -4,11 +4,9 @@ title: 'Eu voltei a organizar a comunidade Wordpress de São Paulo'
 image: /assets/images/posts/2024-09-20-eu-voltei-a-organizar-a-comunidade-wordpress-de-sao-paulo/thumbnail.webp
 tags:
   - tag
-status: draft
-date: 2024-09-20
+status: publish
+date: 2024-12-31
 ---
-# Eu voltei a organizar a comunidade WordPress de São Paulo
-
 ## Como entrei?
 
 Em 2020, após o grande WordCamp São Paulo, que além de ter me dado meu atual emprego, de forma indireta (ou direta), eu enviava palestras constantemente para tentar me apresentar em um meetup, algo que já havia feito em 2019. Recebi um e-mail informando que estavam recrutando pessoas para participar da organização da comunidade. Me candidatei e, de uma forma bem simples, fui chamado.  
@@ -34,6 +32,14 @@ Querendo ou não, todos os envolvidos ganham badges e se beneficiam da marca Wor
 Existem várias formas de contribuir com a comunidade. A empresa onde eu trabalho, a Studio Visual, contribui com dinheiro, patrocinando eventos, comprando plugins de desenvolvedores, etc. Mas a forma mais simples de contribuir é com seu tempo.  
 Na Studio Visual, eu fiz uma palestra sobre como contribuir com traduções, que provavelmente é o caminho mais curto pelo qual você pode atuar. Isso é apenas uma parte, mas se todos fizerem um pouco, ninguém fica sobrecarregado, e o ecossistema e a comunidade evoluem a cada dia mais. Hoje isso já acontece, mas não há como negar que muitas pessoas contribuem e acabam se cansando com a quantidade de trabalho. A tendência é que essas pessoas priorizem outras coisas ou desistam por cansaço.
 
-## Tudo que vai, volta, de uma forma boa.
+## Tudo que vai, volta, de uma forma boa
 
-Hoje eu tenho uma vida extremamente confortável em comparação à maior parte dos brasileiros, e isso foi graças ao WordPress. Devolver isso para a comunidade e ajudar outras pessoas a conquistarem o mesmo é extremamente gratificante. Além disso, minha participação na comunidade me trouxe grande visibilidade e oportunidades de palestras em diversos lugares. Para este ano, já tenho confirmada a PHP Conference Brasil 2024, e talvez ainda mais um evento. Contribuir gera grandes retornos, e, mesmo que não seja no curto prazo, pode ter certeza de que no longo prazo esse retorno chega.
+Hoje eu tenho uma vida extremamente confortável em comparação à maior parte dos brasileiros, e isso foi graças ao WordPress. Devolver isso para a comunidade e ajudar outras pessoas a conquistarem o mesmo é extremamente gratificante. Além disso, minha participação na comunidade me trouxe grande visibilidade e oportunidades de palestras em diversos lugares. Este ano, consegui palestar 4 vezes e em eventos incríveis. Contribuir gera grandes retornos, e, mesmo que não seja no curto prazo, pode ter certeza de que no longo prazo esse retorno chega.
+
+## Participe dos Meetups
+
+Hoje a forma mais ativa da comunidade são os Meetups. Caso queira participar dos eventos, basta acessar nossa página e verificar as datas dos próximos eventos nesse link: [https://www.meetup.com/wpsampa/](https://www.meetup.com/wpsampa/)
+
+## Conclusão
+
+Se você quer contribuir com a comunidade, não pense duas vezes. A comunidade é uma das melhores coisas que já fiz na vida, e é uma experiência que pode mudar sua vida.
