@@ -11,8 +11,6 @@ tags:
 status: publish
 date: 2019-01-04
 ---
-# SASS e Compass
-
 Fala Galera, beleza?
 
 Hoje meu post é para falar um pouco do pré-processador que ando utilizando.
@@ -31,32 +29,32 @@ Bom então, SASS é uma linguagem de programação e também um Framework. Com e
 
 O SASS nos da a possibilidade de utilizar variáveis no CSS, dessa forma definimos um valor X apenas uma vez e setamos as variáveis nas classes, IDs, etc.
 
-### Exemplo real de uso do SASS:
+## Exemplo real de uso do SASS:
 
 ```scss
 // Definindo a variável
 $screen-sm-min: 768px;
 
 #header {
-	.logo {
-		// A herança pode ser feita apenas colocando uma classe dentro da outra
-		margin: 10px 0px;
-		display: block;
+  .logo {
+    // A herança pode ser feita apenas colocando uma classe dentro da outra
+    margin: 10px 0px;
+    display: block;
 
-		// As variáveis são definidas com o Dolar na frente
-		@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-			text-align: center;
-		}
+    // As variáveis são definidas com o Dolar na frente
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      text-align: center;
+    }
 
-		// As variáveis tem seus valores definidos antes
-		@media (max-width: $screen-xs-max) {
-			text-align: center;
+    // As variáveis tem seus valores definidos antes
+    @media (max-width: $screen-xs-max) {
+      text-align: center;
 
-			img {
-				max-width: 100%;
-			}
-		}
-	}
+      img {
+        max-width: 100%;
+      }
+    }
+  }
 }
 ```
 
